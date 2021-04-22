@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Demo Project</string>
+
+    <string name="name">Name</string>
+
+    <string-array name="district">
+        <item>North Goa</item>
+        <item>South Goa</item>
+    </string-array>
+
+</resources>
