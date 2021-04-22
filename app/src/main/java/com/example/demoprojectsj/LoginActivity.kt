@@ -96,7 +96,7 @@ private val passwordPattern = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$"
 
 
 
-        val notifcationIntent = Intent(this, RegisterActivity1::class.java)
+        val notifcationIntent = Intent(this, MainActivity::class.java)
         val contentIntent = PendingIntent.getActivity(this, 0, notifcationIntent, PendingIntent.FLAG_UPDATE_CURRENT)
         mBuilder.setContentIntent(contentIntent)
 
